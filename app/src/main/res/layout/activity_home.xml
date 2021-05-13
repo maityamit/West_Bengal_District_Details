@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#56DCDCDC"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+
+
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:visibility="gone"
+        android:id="@+id/district_load_image"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="match_parent"
+        android:src="@drawable/district_unload"
+        android:scaleType="fitXY"/>
+
+
+    <LinearLayout
+        android:id="@+id/lin_lay_dist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:background="#2861FE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:textSize="18sp"
+            android:paddingStart="10dp"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:textColor="#FFFFFF"
+            android:text="Districts List"/>
+
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/district_list_recycle"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

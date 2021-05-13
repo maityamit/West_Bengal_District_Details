@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "339582945233",
+    "project_id": "west-bengal-f0619",
+    "storage_bucket": "west-bengal-f0619.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339582945233:android:caa6acb5ad9c113b4f02f0",
+        "android_client_info": {
+          "package_name": "districtwisedetailsofwbbyamit.example.districtdetails"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339582945233-2bkl39n6v7ok6936pfmouufr5dt217r9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1Jb7VkG9AarcrSG1iVvCdquZsGFE1NFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339582945233-2bkl39n6v7ok6936pfmouufr5dt217r9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
