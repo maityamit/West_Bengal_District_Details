@@ -38,7 +38,7 @@
             android:textStyle="bold"
             android:padding="15dp"
             android:textColor="#FFFFFF"
-            android:text="Districts List"/>
+            android:text="District List"/>
 
 
 

@@ -2,4 +2,9 @@
     <string name="app_name">জেলা ভিত্তিক তথ্য </string>
 
     <string name="app_real_name">পশ্চিমবঙ্গের জেলা ভিত্তিক তথ্য </string>
+    <string name="basic_information"><u>Basic Information</u></string>
+    <string name="govermental_department"><u>Governmental Department</u></string>
+    <string name="demographic"><u>Demographic</u></string>
+    <string name="tourism"><u>Tourism</u></string>
+    <string name="gallary"><u>Gallary</u></string>
 </resources>

@@ -78,7 +78,7 @@ public class DistrictDetailsActivity extends AppCompatActivity {
 
 
 
-                Picasso.get().load(distimagestr).into(districtimagr);
+                Picasso.get().load(distimagestr).placeholder(R.drawable.district_loading).error(R.drawable.district_loading).into(districtimagr);
                 district_name.setText(distnamestr);
                 div.setText(stringdiv);
                 subdiv.setText(stringsubdiv);

@@ -40,9 +40,9 @@
                 android:id="@+id/district_details_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textStyle="normal"
+                android:textStyle="bold"
                 android:textSize="17sp"
-                android:textColor="@android:color/black"
+                android:textColor="#2861FE"
                 android:text="District Name"
                 android:layout_centerInParent="true"/>
 
@@ -94,7 +94,7 @@
                         android:textColor="@android:color/black"
                         android:textStyle="bold"
                         android:layout_marginTop="15dp"
-                        android:text="Basic Information"
+                        android:text="@string/basic_information"
                         android:textSize="17sp"/>
 
                     <LinearLayout
@@ -106,11 +106,12 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
+                            android:textStyle="bold"
                             android:layout_marginStart="30dp"
                             android:textSize="15sp"
                             android:layout_marginEnd="15dp"
                             android:text="State: "
-                            android:textColor="@android:color/black"/>
+                            android:textColor="#2861FE"/>
 
 
                         <TextView
@@ -118,6 +119,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:textSize="15sp"
+                            android:textColor="@android:color/black"
                             android:layout_marginStart="10dp"
                             android:layout_marginEnd="15dp"
                             android:text="West Bengal"/>
@@ -137,9 +139,10 @@
                             android:layout_marginTop="10dp"
                             android:layout_marginStart="30dp"
                             android:textSize="15sp"
+                            android:textStyle="bold"
                             android:layout_marginEnd="15dp"
                             android:text="Division: "
-                            android:textColor="@android:color/black"/>
+                            android:textColor="#2861FE"/>
 
 
                         <TextView
@@ -147,6 +150,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
+                            android:textColor="@android:color/black"
                             android:textSize="15sp"
                             android:layout_marginStart="10dp"
                             android:layout_marginEnd="15dp"
@@ -165,11 +169,12 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
+                            android:textStyle="bold"
                             android:layout_marginStart="30dp"
                             android:textSize="15sp"
                             android:layout_marginEnd="15dp"
                             android:text="Head Quater: "
-                            android:textColor="@android:color/black"/>
+                            android:textColor="#2861FE"/>
 
 
                         <TextView
@@ -178,6 +183,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:textSize="15sp"
+                            android:textColor="@android:color/black"
                             android:layout_marginStart="10dp"
                             android:layout_marginEnd="15dp"
                             android:text="HQ"/>
@@ -206,7 +212,7 @@
                         android:textColor="@android:color/black"
                         android:textStyle="bold"
                         android:layout_marginTop="15dp"
-                        android:text="Govermental Department"
+                        android:text="@string/govermental_department"
                         android:textSize="17sp"/>
 
                     <LinearLayout
@@ -219,10 +225,11 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:layout_marginStart="30dp"
+                            android:textStyle="bold"
                             android:textSize="15sp"
                             android:layout_marginEnd="15dp"
                             android:text="Lok Sabha: "
-                            android:textColor="@android:color/black"/>
+                            android:textColor="#2861FE"/>
 
 
                         <TextView
@@ -230,6 +237,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
+                            android:textColor="@android:color/black"
                             android:textSize="15sp"
                             android:layout_marginStart="10dp"
                             android:layout_marginEnd="15dp"
@@ -248,11 +256,12 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
+                            android:textStyle="bold"
                             android:layout_marginStart="30dp"
                             android:textSize="15sp"
                             android:layout_marginEnd="15dp"
                             android:text="Vidhan Sabha: "
-                            android:textColor="@android:color/black"/>
+                            android:textColor="#2861FE"/>
 
 
                         <TextView
@@ -261,6 +270,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:textSize="15sp"
+                            android:textColor="@android:color/black"
                             android:layout_marginStart="10dp"
                             android:layout_marginEnd="15dp"
                             android:text="Division"/>
@@ -278,11 +288,12 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
+                            android:textStyle="bold"
                             android:layout_marginStart="30dp"
                             android:textSize="15sp"
                             android:layout_marginEnd="15dp"
                             android:text="Sub Division: "
-                            android:textColor="@android:color/black"/>
+                            android:textColor="#2861FE"/>
 
 
                         <TextView
@@ -290,6 +301,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
+                            android:textColor="@android:color/black"
                             android:textSize="15sp"
                             android:layout_marginStart="10dp"
                             android:layout_marginEnd="15dp"
@@ -308,11 +320,12 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
+                            android:textStyle="bold"
                             android:layout_marginStart="30dp"
                             android:textSize="15sp"
                             android:layout_marginEnd="15dp"
                             android:text="Police Station: "
-                            android:textColor="@android:color/black"/>
+                            android:textColor="#2861FE"/>
 
 
                         <TextView
@@ -322,6 +335,7 @@
                             android:layout_marginTop="10dp"
                             android:textSize="15sp"
                             android:layout_marginStart="10dp"
+                            android:textColor="@android:color/black"
                             android:layout_marginEnd="15dp"
                             android:text="HQ"/>
 
@@ -338,11 +352,12 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
+                            android:textStyle="bold"
                             android:layout_marginStart="30dp"
                             android:textSize="15sp"
                             android:layout_marginEnd="15dp"
                             android:text="Block: "
-                            android:textColor="@android:color/black"/>
+                            android:textColor="#2861FE"/>
 
 
                         <TextView
@@ -351,6 +366,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:textSize="15sp"
+                            android:textColor="@android:color/black"
                             android:layout_marginStart="10dp"
                             android:layout_marginEnd="15dp"
                             android:text="HQ"/>
@@ -379,7 +395,7 @@
                         android:textColor="@android:color/black"
                         android:textStyle="bold"
                         android:layout_marginTop="15dp"
-                        android:text="Demographic"
+                        android:text="@string/demographic"
                         android:textSize="17sp"/>
 
                     <LinearLayout
@@ -392,10 +408,11 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:layout_marginStart="30dp"
+                            android:textStyle="bold"
                             android:textSize="15sp"
                             android:layout_marginEnd="15dp"
                             android:text="Area: "
-                            android:textColor="@android:color/black"/>
+                            android:textColor="#2861FE"/>
 
 
                         <TextView
@@ -404,6 +421,7 @@
                             android:layout_marginTop="10dp"
                             android:textSize="15sp"
                             android:layout_marginStart="10dp"
+                            android:textColor="@android:color/black"
                             android:layout_marginEnd="15dp"
                             android:text="lok"/>
 
@@ -421,16 +439,18 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:layout_marginStart="30dp"
+                            android:textStyle="bold"
                             android:textSize="15sp"
                             android:layout_marginEnd="15dp"
                             android:text="Population: "
-                            android:textColor="@android:color/black"/>
+                            android:textColor="#2861FE"/>
 
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
+                            android:textColor="@android:color/black"
                             android:textSize="15sp"
                             android:layout_marginStart="10dp"
                             android:layout_marginEnd="15dp"
@@ -452,14 +472,16 @@
                             android:layout_marginStart="30dp"
                             android:textSize="15sp"
                             android:layout_marginEnd="15dp"
+                            android:textStyle="bold"
                             android:text="Population Density: "
-                            android:textColor="@android:color/black"/>
+                            android:textColor="#2861FE"/>
 
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
+                            android:textColor="@android:color/black"
                             android:textSize="15sp"
                             android:layout_marginStart="10dp"
                             android:layout_marginEnd="15dp"
@@ -479,16 +501,18 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:layout_marginStart="30dp"
+                            android:textStyle="bold"
                             android:textSize="15sp"
                             android:layout_marginEnd="15dp"
                             android:text="Literacy: "
-                            android:textColor="@android:color/black"/>
+                            android:textColor="#2861FE"/>
 
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
+                            android:textColor="@android:color/black"
                             android:textSize="15sp"
                             android:layout_marginStart="10dp"
                             android:layout_marginEnd="15dp"
@@ -508,10 +532,11 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:layout_marginStart="30dp"
+                            android:textStyle="bold"
                             android:textSize="15sp"
                             android:layout_marginEnd="15dp"
                             android:text="Sex Ratio: "
-                            android:textColor="@android:color/black"/>
+                            android:textColor="#2861FE"/>
 
 
                         <TextView
@@ -520,6 +545,7 @@
                             android:layout_marginTop="10dp"
                             android:textSize="15sp"
                             android:layout_marginStart="10dp"
+                            android:textColor="@android:color/black"
                             android:layout_marginEnd="15dp"
                             android:text="HQ"/>
 
@@ -537,16 +563,18 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:layout_marginStart="30dp"
+                            android:textStyle="bold"
                             android:textSize="15sp"
                             android:layout_marginEnd="15dp"
                             android:text="Major Highway: "
-                            android:textColor="@android:color/black"/>
+                            android:textColor="#2861FE"/>
 
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
+                            android:textColor="@android:color/black"
                             android:textSize="15sp"
                             android:layout_marginStart="10dp"
                             android:layout_marginEnd="15dp"
@@ -568,15 +596,17 @@
                             android:layout_marginTop="10dp"
                             android:layout_marginStart="30dp"
                             android:textSize="15sp"
+                            android:textStyle="bold"
                             android:layout_marginEnd="15dp"
                             android:text="Major City: "
-                            android:textColor="@android:color/black"/>
+                            android:textColor="#2861FE"/>
 
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
+                            android:textColor="@android:color/black"
                             android:textSize="15sp"
                             android:layout_marginStart="10dp"
                             android:layout_marginEnd="15dp"
@@ -596,10 +626,11 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:layout_marginStart="30dp"
+                            android:textStyle="bold"
                             android:textSize="15sp"
                             android:layout_marginEnd="15dp"
                             android:text="River: "
-                            android:textColor="@android:color/black"/>
+                            android:textColor="#2861FE"/>
 
 
                         <TextView
@@ -608,6 +639,7 @@
                             android:layout_marginTop="10dp"
                             android:textSize="15sp"
                             android:layout_marginStart="10dp"
+                            android:textColor="@android:color/black"
                             android:layout_marginEnd="15dp"
                             android:text="HQ"/>
 
@@ -626,15 +658,17 @@
                             android:layout_marginTop="10dp"
                             android:layout_marginStart="30dp"
                             android:textSize="15sp"
+                            android:textStyle="bold"
                             android:layout_marginEnd="15dp"
                             android:text="Hospitals: "
-                            android:textColor="@android:color/black"/>
+                            android:textColor="#2861FE"/>
 
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
+                            android:textColor="@android:color/black"
                             android:textSize="15sp"
                             android:layout_marginStart="10dp"
                             android:layout_marginEnd="15dp"
@@ -667,7 +701,7 @@
                         android:textColor="@android:color/black"
                         android:textStyle="bold"
                         android:layout_marginTop="15dp"
-                        android:text="Tourism"
+                        android:text="@string/tourism"
                         android:textSize="17sp"/>
 
 
@@ -701,7 +735,7 @@
                         android:textColor="@android:color/black"
                         android:textStyle="bold"
                         android:layout_marginTop="15dp"
-                        android:text="Gallary"
+                        android:text="@string/gallary"
                         android:textSize="17sp"/>
 
 
@@ -745,6 +779,7 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginTop="10dp"
                         android:textSize="16sp"
+                        android:textColor="@android:color/black"
                         android:text="hello"
                         android:layout_marginBottom="100dp"/>
 
