@@ -1,4 +1,4 @@
-# West_Bengal_District_Details
+# West Bengal District Details
 West_Bengal_District_Details
 
 # ⚙️ Features 
