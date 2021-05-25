@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
         share = findViewById(R.id.share_app);
         about = findViewById(R.id.about_us_app);
 
+        // Hello Chik
+
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
