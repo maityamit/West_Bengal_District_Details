@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         share = findViewById(R.id.share_app);
         about = findViewById(R.id.about_us_app);
 
-        // Bella Ciao
+        // Bella Ciaoo
 
         home.setOnClickListener(new View.OnClickListener() {
             @Override
