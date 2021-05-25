@@ -100,15 +100,13 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:weightSum="3"
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:textStyle="bold"
-                            android:layout_weight="1"
                             android:layout_marginStart="30dp"
                             android:textSize="15sp"
                             android:layout_marginEnd="15dp"
@@ -117,12 +115,12 @@
 
 
                         <TextView
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
-                            android:layout_weight="2"
                             android:textSize="15sp"
                             android:textColor="@android:color/black"
+                            android:layout_marginStart="10dp"
                             android:layout_marginEnd="15dp"
                             android:text="West Bengal"/>
 
@@ -133,14 +131,12 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:weightSum="3"
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
-                            android:layout_weight="1"
                             android:layout_marginStart="30dp"
                             android:textSize="15sp"
                             android:textStyle="bold"
@@ -151,12 +147,12 @@
 
                         <TextView
                             android:id="@+id/district_division"
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_weight="1"
                             android:layout_marginTop="10dp"
                             android:textColor="@android:color/black"
                             android:textSize="15sp"
+                            android:layout_marginStart="10dp"
                             android:layout_marginEnd="15dp"
                             android:text="Division"/>
 
@@ -167,15 +163,13 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:weightSum="3"
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:textStyle="bold"
-                            android:layout_weight="1"
                             android:layout_marginStart="30dp"
                             android:textSize="15sp"
                             android:layout_marginEnd="15dp"
@@ -185,12 +179,12 @@
 
                         <TextView
                             android:id="@+id/district_hq"
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
-                            android:layout_weight="2"
                             android:textSize="15sp"
                             android:textColor="@android:color/black"
+                            android:layout_marginStart="10dp"
                             android:layout_marginEnd="15dp"
                             android:text="HQ"/>
 
@@ -224,15 +218,13 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:weightSum="3"
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:layout_marginStart="30dp"
-                            android:layout_weight="1"
                             android:textStyle="bold"
                             android:textSize="15sp"
                             android:layout_marginEnd="15dp"
@@ -242,12 +234,12 @@
 
                         <TextView
                             android:id="@+id/district_lok"
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
-                            android:layout_weight="2"
                             android:textColor="@android:color/black"
                             android:textSize="15sp"
+                            android:layout_marginStart="10dp"
                             android:layout_marginEnd="15dp"
                             android:text="lok"/>
 
@@ -258,15 +250,13 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:weightSum="3"
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:textStyle="bold"
-                            android:layout_weight="1"
                             android:layout_marginStart="30dp"
                             android:textSize="15sp"
                             android:layout_marginEnd="15dp"
@@ -276,12 +266,12 @@
 
                         <TextView
                             android:id="@+id/district_vidhan"
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_weight="2"
                             android:layout_marginTop="10dp"
                             android:textSize="15sp"
                             android:textColor="@android:color/black"
+                            android:layout_marginStart="10dp"
                             android:layout_marginEnd="15dp"
                             android:text="Division"/>
 
@@ -292,15 +282,13 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:weightSum="3"
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:textStyle="bold"
-                            android:layout_weight="1"
                             android:layout_marginStart="30dp"
                             android:textSize="15sp"
                             android:layout_marginEnd="15dp"
@@ -310,12 +298,12 @@
 
                         <TextView
                             android:id="@+id/district_sub_division"
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
-                            android:layout_weight="2"
                             android:textColor="@android:color/black"
                             android:textSize="15sp"
+                            android:layout_marginStart="10dp"
                             android:layout_marginEnd="15dp"
                             android:text="HQ"/>
 
@@ -325,30 +313,28 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:weightSum="3"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:textStyle="bold"
                             android:layout_marginStart="30dp"
                             android:textSize="15sp"
                             android:layout_marginEnd="15dp"
-                            android:layout_weight="1"
                             android:text="Police Station: "
                             android:textColor="#2861FE"/>
 
 
                         <TextView
                             android:id="@+id/district_police"
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
-                            android:layout_weight="2"
                             android:textSize="15sp"
+                            android:layout_marginStart="10dp"
                             android:textColor="@android:color/black"
                             android:layout_marginEnd="15dp"
                             android:text="HQ"/>
@@ -360,15 +346,13 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:weightSum="3"
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:textStyle="bold"
-                            android:layout_weight="1"
                             android:layout_marginStart="30dp"
                             android:textSize="15sp"
                             android:layout_marginEnd="15dp"
@@ -378,12 +362,12 @@
 
                         <TextView
                             android:id="@+id/district_block"
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
-                            android:layout_weight="2"
                             android:textSize="15sp"
                             android:textColor="@android:color/black"
+                            android:layout_marginStart="10dp"
                             android:layout_marginEnd="15dp"
                             android:text="HQ"/>
 
@@ -417,15 +401,13 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:weightSum="3"
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:layout_marginStart="30dp"
-                            android:layout_weight="1"
                             android:textStyle="bold"
                             android:textSize="15sp"
                             android:layout_marginEnd="15dp"
@@ -434,12 +416,11 @@
 
 
                         <TextView
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
-                            android:id="@+id/area"
-                            android:layout_weight="2"
                             android:textSize="15sp"
+                            android:layout_marginStart="10dp"
                             android:textColor="@android:color/black"
                             android:layout_marginEnd="15dp"
                             android:text="lok"/>
@@ -451,14 +432,12 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:weightSum="3"
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
-                            android:layout_weight="1"
                             android:layout_marginStart="30dp"
                             android:textStyle="bold"
                             android:textSize="15sp"
@@ -468,13 +447,12 @@
 
 
                         <TextView
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
-                            android:id="@+id/popu"
                             android:textColor="@android:color/black"
                             android:textSize="15sp"
-                            android:layout_weight="2"
+                            android:layout_marginStart="10dp"
                             android:layout_marginEnd="15dp"
                             android:text="Division"/>
 
@@ -485,16 +463,14 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:weightSum="3"
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:layout_marginStart="30dp"
                             android:textSize="15sp"
-                            android:layout_weight="1"
                             android:layout_marginEnd="15dp"
                             android:textStyle="bold"
                             android:text="Population Density: "
@@ -502,13 +478,12 @@
 
 
                         <TextView
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:textColor="@android:color/black"
-                            android:id="@+id/popu_den"
-                            android:layout_weight="2"
                             android:textSize="15sp"
+                            android:layout_marginStart="10dp"
                             android:layout_marginEnd="15dp"
                             android:text="HQ"/>
 
@@ -519,15 +494,13 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:weightSum="3"
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:layout_marginStart="30dp"
-                            android:layout_weight="1"
                             android:textStyle="bold"
                             android:textSize="15sp"
                             android:layout_marginEnd="15dp"
@@ -536,13 +509,12 @@
 
 
                         <TextView
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
-                            android:id="@+id/litercy"
                             android:textColor="@android:color/black"
-                            android:layout_weight="2"
                             android:textSize="15sp"
+                            android:layout_marginStart="10dp"
                             android:layout_marginEnd="15dp"
                             android:text="HQ"/>
 
@@ -553,16 +525,14 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:weightSum="3"
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:layout_marginStart="30dp"
                             android:textStyle="bold"
-                            android:layout_weight="1"
                             android:textSize="15sp"
                             android:layout_marginEnd="15dp"
                             android:text="Sex Ratio: "
@@ -570,12 +540,11 @@
 
 
                         <TextView
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:textSize="15sp"
-                            android:id="@+id/sex_rat"
-                            android:layout_weight="2"
+                            android:layout_marginStart="10dp"
                             android:textColor="@android:color/black"
                             android:layout_marginEnd="15dp"
                             android:text="HQ"/>
@@ -587,16 +556,14 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:weightSum="3"
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:layout_marginStart="30dp"
                             android:textStyle="bold"
-                            android:layout_weight="1"
                             android:textSize="15sp"
                             android:layout_marginEnd="15dp"
                             android:text="Major Highway: "
@@ -604,13 +571,12 @@
 
 
                         <TextView
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_weight="2"
                             android:layout_marginTop="10dp"
-                            android:id="@+id/major_high"
                             android:textColor="@android:color/black"
                             android:textSize="15sp"
+                            android:layout_marginStart="10dp"
                             android:layout_marginEnd="15dp"
                             android:text="HQ"/>
 
@@ -622,16 +588,14 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:weightSum="3"
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:layout_marginStart="30dp"
                             android:textSize="15sp"
-                            android:layout_weight="1"
                             android:textStyle="bold"
                             android:layout_marginEnd="15dp"
                             android:text="Major City: "
@@ -639,13 +603,12 @@
 
 
                         <TextView
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
-                            android:id="@+id/major_city"
                             android:textColor="@android:color/black"
-                            android:layout_weight="2"
                             android:textSize="15sp"
+                            android:layout_marginStart="10dp"
                             android:layout_marginEnd="15dp"
                             android:text="HQ"/>
 
@@ -656,15 +619,13 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="3"
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:layout_marginStart="30dp"
-                            android:layout_weight="1"
                             android:textStyle="bold"
                             android:textSize="15sp"
                             android:layout_marginEnd="15dp"
@@ -673,12 +634,11 @@
 
 
                         <TextView
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:textSize="15sp"
-                            android:id="@+id/river"
-                            android:layout_weight="2"
+                            android:layout_marginStart="10dp"
                             android:textColor="@android:color/black"
                             android:layout_marginEnd="15dp"
                             android:text="HQ"/>
@@ -690,14 +650,12 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:weightSum="3"
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
-                            android:layout_weight="1"
                             android:layout_marginStart="30dp"
                             android:textSize="15sp"
                             android:textStyle="bold"
@@ -707,13 +665,12 @@
 
 
                         <TextView
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
-                            android:layout_weight="2"
-                            android:id="@+id/hospitals"
                             android:textColor="@android:color/black"
                             android:textSize="15sp"
+                            android:layout_marginStart="10dp"
                             android:layout_marginEnd="15dp"
                             android:text="HQ"/>
 

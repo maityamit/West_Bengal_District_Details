@@ -24,11 +24,9 @@ public class DistrictDetailsActivity extends AppCompatActivity {
 
 
     private ImageView districtimagr;
+    private String districtposition;
     private DatabaseReference RootRef;
     private TextView district_name,div,subdiv,block,ps,hq,lok,vidhan;
-
-    private TextView area,popu,popu_den,litercy,sex_rat,major_high,major_city,river,hospital;
-
     private GifImageView gifImageView;
     private LinearLayout linearLayout;
 
@@ -37,7 +35,7 @@ public class DistrictDetailsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_district_details);
-        String districtposition = getIntent().getExtras().get("DISTRICT").toString();
+
         RootRef= FirebaseDatabase.getInstance ().getReference ();
         districtimagr = findViewById(R.id.dist_imagr);
         linearLayout = findViewById(R.id.district_details_layout_unload);
@@ -50,23 +48,7 @@ public class DistrictDetailsActivity extends AppCompatActivity {
         hq=findViewById(R.id.district_hq);
         lok=findViewById(R.id.district_lok);
         vidhan=findViewById(R.id.district_vidhan);
-
-
-        area = findViewById(R.id.area);
-        popu=findViewById(R.id.popu);
-        popu_den=findViewById(R.id.popu_den);
-        litercy=findViewById(R.id.litercy);
-        sex_rat=findViewById(R.id.sex_rat);
-        major_high=findViewById(R.id.major_high);
-        major_city=findViewById(R.id.major_city);
-        river=findViewById(R.id.river);
-        hospital=findViewById(R.id.hospitals);
-
-
-
-
-
-
+        districtposition = getIntent().getExtras().get("DISTRICT").toString();
 
 
         RetriveDetails(districtposition);
@@ -92,32 +74,6 @@ public class DistrictDetailsActivity extends AppCompatActivity {
                 String stringdiv = dataSnapshot.child ( "DIVISION" ).getValue ().toString ();
                 String stringsubdiv = dataSnapshot.child ( "SUBDIV" ).getValue ().toString ();
                 String stringblock = dataSnapshot.child ( "BLOCK" ).getValue ().toString ();
-
-
-
-                String string_area = dataSnapshot.child("AREA").getValue().toString();
-                String string_popu = dataSnapshot.child("POPULATION").getValue().toString();
-                String string_popu_den = dataSnapshot.child("DENSITY").getValue().toString();
-                String string_litercy = dataSnapshot.child("LITERACY").getValue().toString();
-                String string_sex_rat = dataSnapshot.child("SEXRATIO").getValue().toString();
-                String string_major_high  = dataSnapshot.child("MAJORHW").getValue().toString();
-                String string_major_city  = dataSnapshot.child("MAJORCITY").getValue().toString();
-                String string_river = dataSnapshot.child("RIVER").getValue().toString();
-                String string_hospitals = dataSnapshot.child("HOSPITALS").getValue().toString();
-
-
-
-                area.setText(string_area);
-                popu.setText(string_popu);
-                popu_den.setText(string_popu_den);
-                litercy.setText(string_litercy);
-                sex_rat.setText(string_sex_rat);
-                major_high.setText(string_major_high);
-                major_city.setText(string_major_city);
-                river.setText(string_river);
-                hospital.setText(string_hospitals);
-
-
 
 
 
