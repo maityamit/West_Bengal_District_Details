@@ -1,0 +1,161 @@
+#header_image {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px; 
+  }
+  
+  /* Add a hover effect (blue shadow) */
+  img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+  
+  #logo{ 
+	position:fixed; 
+	top:0; 
+    padding: 5px;
+    border-radius: 5px;
+    width: 70px;
+    height: 70px;
+	left:0;
+  }
+
+
+  #district_name_text_font{
+    position: relative;
+    margin-left: 100px;
+    height: 70px;
+  }
+
+
+
+ #button1 {
+  background-color: #ffffff; /* Green */
+  border: none;
+  color: #2861FE;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 10px;
+  width: 220px;
+  cursor: pointer;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 16px;
+  padding: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+  #button2 {
+    background-color: #ffffff; /* Green */
+    border: none;
+    color: #2861FE;
+    width: 220px;
+    cursor: pointer;
+    padding: 15px 32px;
+    text-align: center;
+    opacity: 0.6;
+    text-decoration: none;
+    margin-left: 10px;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 16px;
+    padding: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+  #button3 {
+    background-color: #ffffff; /* Green */
+    border: none;
+    color: #2861FE;
+    padding: 15px 32px;
+    text-align: center;
+    width: 220px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 16px;
+    padding: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+  #button4 {
+    background-color: #ffffff; /* Green */
+    border: none;
+    color: #2861FE;
+    padding: 15px 32px;
+    text-align: center;
+    width: 220px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 16px;
+    padding: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+
+  #button5 {
+    background-color: #ffffff; /* Green */
+    border: none;
+    color: #2861FE;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    width: 220px;
+    margin-right: 10px;
+    margin-top: 20px;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 16px;
+    padding: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+  #button6 {
+    background-color: #ffffff; /* Green */
+    border: none;
+    color: #2861FE;
+    padding: 15px 32px;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 220px;
+    margin-left: 10px;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 16px;
+    padding: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+
+
+
+
+  #center1 {
+    text-align: center;
+    border: 3px;
+    margin-top: 30px;
+  }
+
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #2861FE;
+    color: burlywood;
+  }
+
+  

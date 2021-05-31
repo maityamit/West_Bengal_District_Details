@@ -1,0 +1,51 @@
+ul {
+    background: #2861FE;
+    margin-bottom: 25px;
+    margin-left: auto;
+    display:table;
+    margin-right: auto;
+    padding: 20px;
+  }
+ 
+  
+  ul li {
+    background: #ffffff;
+    font-size: 30px;
+    font-family: Arial;
+    line-height: 2.5;
+    list-style-position: inside;
+    align-items: center;
+    font-style:initial;
+    font-weight: bold;
+    padding: 0px 20px;
+    width: 350px;
+    cursor:pointer;
+    padding-top: 11px;
+    margin-block-start: 5px;
+    color: #2861FE;
+    font: bold;
+    font-stretch: semi-expanded;
+    margin: 5px;
+  }
+
+  /* Add a hover effect (blue shadow) */
+  img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+  
+  #logo{ 
+	position:fixed; 
+	top:0; 
+    padding: 5px;
+    border-radius: 5px;
+    width: 70px;
+    height: 70px;
+	left:0;
+  }
+
+
+  #district_name_text_font{
+    position: fixed;
+    margin-left: 100px;
+    height: 70px;
+  }
