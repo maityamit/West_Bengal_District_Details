@@ -97,31 +97,79 @@
                         android:text="@string/basic_information"
                         android:textSize="17sp"/>
 
+
+
+
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
                         android:orientation="horizontal">
 
-                        <TextView
-                            android:layout_width="wrap_content"
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:textStyle="bold"
-                            android:layout_marginStart="30dp"
-                            android:textSize="15sp"
-                            android:layout_marginEnd="15dp"
-                            android:text="State: "
-                            android:textColor="#2861FE"/>
+                            android:layout_weight="1">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:elevation="2dp"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="5dp"
+                                app:cardCornerRadius="5dp"
+                                android:paddingEnd="5dp">
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/dida"
+                                    android:gravity="center">
+
+
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textColor="#2861FE"
+                                        android:textStyle="bold"
+                                        android:layout_margin="2dp"
+                                        android:textSize="15sp"
+                                        android:paddingStart="5dp"
+                                        android:paddingEnd="5dp"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_marginEnd="5dp"
+                                        android:text="State"/>
+
+                                </LinearLayout>
+
+
+
+
+
+                            </androidx.cardview.widget.CardView>
+
+
+
+
+                        </RelativeLayout>
 
 
                         <TextView
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center_vertical"
                             android:textSize="15sp"
                             android:textColor="@android:color/black"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginEnd="15dp"
+                            android:layout_marginEnd="5dp"
                             android:text="West Bengal"/>
 
 
@@ -133,28 +181,69 @@
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
-                        <TextView
-                            android:layout_width="wrap_content"
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginStart="30dp"
-                            android:textSize="15sp"
-                            android:textStyle="bold"
-                            android:layout_marginEnd="15dp"
-                            android:text="Division: "
-                            android:textColor="#2861FE"/>
+                            android:layout_weight="1">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:elevation="2dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="5dp"
+                                app:cardCornerRadius="5dp"
+                                android:paddingEnd="5dp">
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/dida"
+                                    android:gravity="center">
+
+
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textColor="#2861FE"
+                                        android:textStyle="bold"
+                                        android:layout_margin="2dp"
+                                        android:textSize="15sp"
+                                        android:paddingStart="5dp"
+                                        android:paddingEnd="5dp"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_marginEnd="5dp"
+                                        android:text="Division"/>
+
+                                </LinearLayout>
+
+
+
+                            </androidx.cardview.widget.CardView>
+
+
+
+
+                        </RelativeLayout>
 
 
                         <TextView
                             android:id="@+id/district_division"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:textColor="@android:color/black"
+                            android:layout_weight="1"
+                            android:layout_gravity="center_vertical"
                             android:textSize="15sp"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginEnd="15dp"
-                            android:text="Division"/>
+                            android:textColor="@android:color/black"
+                            android:layout_marginEnd="5dp"
+                            android:text="State Name"/>
 
 
 
@@ -165,28 +254,67 @@
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
-                        <TextView
-                            android:layout_width="wrap_content"
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:textStyle="bold"
-                            android:layout_marginStart="30dp"
-                            android:textSize="15sp"
-                            android:layout_marginEnd="15dp"
-                            android:text="Head Quater: "
-                            android:textColor="#2861FE"/>
+                            android:layout_weight="1">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:elevation="2dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="5dp"
+                                app:cardCornerRadius="5dp"
+                                android:paddingEnd="5dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/dida"
+                                    android:gravity="center">
+
+
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textColor="#2861FE"
+                                        android:textStyle="bold"
+                                        android:layout_margin="2dp"
+                                        android:textSize="15sp"
+                                        android:paddingStart="5dp"
+                                        android:paddingEnd="5dp"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_marginEnd="5dp"
+                                        android:text="Head Quater"/>
+
+                                </LinearLayout>
+
+
+                            </androidx.cardview.widget.CardView>
+
+
+
+
+                        </RelativeLayout>
 
 
                         <TextView
                             android:id="@+id/district_hq"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center_vertical"
                             android:textSize="15sp"
                             android:textColor="@android:color/black"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginEnd="15dp"
-                            android:text="HQ"/>
+                            android:layout_marginEnd="5dp"
+                            android:text="State Name"/>
 
 
 
@@ -215,33 +343,78 @@
                         android:text="@string/govermental_department"
                         android:textSize="17sp"/>
 
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
                         android:orientation="horizontal">
 
-                        <TextView
-                            android:layout_width="wrap_content"
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginStart="30dp"
-                            android:textStyle="bold"
-                            android:textSize="15sp"
-                            android:layout_marginEnd="15dp"
-                            android:text="Lok Sabha: "
-                            android:textColor="#2861FE"/>
+                            android:layout_weight="1">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:elevation="2dp"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="5dp"
+                                app:cardCornerRadius="5dp"
+                                android:paddingEnd="5dp">
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/dida"
+                                    android:gravity="center">
+
+
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textColor="#2861FE"
+                                        android:textStyle="bold"
+                                        android:layout_margin="2dp"
+                                        android:textSize="15sp"
+                                        android:paddingStart="5dp"
+                                        android:paddingEnd="5dp"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_marginEnd="5dp"
+                                        android:text="Lok Sabha"/>
+
+                                </LinearLayout>
+
+
+
+
+
+                            </androidx.cardview.widget.CardView>
+
+
+
+
+                        </RelativeLayout>
 
 
                         <TextView
                             android:id="@+id/district_lok"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:textColor="@android:color/black"
+                            android:layout_weight="1"
+                            android:layout_gravity="center_vertical"
                             android:textSize="15sp"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginEnd="15dp"
-                            android:text="lok"/>
+                            android:textColor="@android:color/black"
+                            android:layout_marginEnd="5dp"
+                            android:text="West Bengal"/>
 
 
 
@@ -252,28 +425,71 @@
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
-                        <TextView
-                            android:layout_width="wrap_content"
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:textStyle="bold"
-                            android:layout_marginStart="30dp"
-                            android:textSize="15sp"
-                            android:layout_marginEnd="15dp"
-                            android:text="Vidhan Sabha: "
-                            android:textColor="#2861FE"/>
+                            android:layout_weight="1">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:elevation="2dp"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="5dp"
+                                app:cardCornerRadius="5dp"
+                                android:paddingEnd="5dp">
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/dida"
+                                    android:gravity="center">
+
+
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textColor="#2861FE"
+                                        android:textStyle="bold"
+                                        android:layout_margin="2dp"
+                                        android:textSize="15sp"
+                                        android:paddingStart="5dp"
+                                        android:paddingEnd="5dp"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_marginEnd="5dp"
+                                        android:text="Vidhan Sabha"/>
+
+                                </LinearLayout>
+
+
+
+
+
+                            </androidx.cardview.widget.CardView>
+
+
+
+
+                        </RelativeLayout>
 
 
                         <TextView
                             android:id="@+id/district_vidhan"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center_vertical"
                             android:textSize="15sp"
                             android:textColor="@android:color/black"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginEnd="15dp"
-                            android:text="Division"/>
+                            android:layout_marginEnd="5dp"
+                            android:text="West Bengal"/>
 
 
 
@@ -284,28 +500,71 @@
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
-                        <TextView
-                            android:layout_width="wrap_content"
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:textStyle="bold"
-                            android:layout_marginStart="30dp"
-                            android:textSize="15sp"
-                            android:layout_marginEnd="15dp"
-                            android:text="Sub Division: "
-                            android:textColor="#2861FE"/>
+                            android:layout_weight="1">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:elevation="2dp"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="5dp"
+                                app:cardCornerRadius="5dp"
+                                android:paddingEnd="5dp">
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/dida"
+                                    android:gravity="center">
+
+
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textColor="#2861FE"
+                                        android:textStyle="bold"
+                                        android:layout_margin="2dp"
+                                        android:textSize="15sp"
+                                        android:paddingStart="5dp"
+                                        android:paddingEnd="5dp"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_marginEnd="5dp"
+                                        android:text="Sub Division"/>
+
+                                </LinearLayout>
+
+
+
+
+
+                            </androidx.cardview.widget.CardView>
+
+
+
+
+                        </RelativeLayout>
 
 
                         <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
                             android:id="@+id/district_sub_division"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:textColor="@android:color/black"
+                            android:layout_weight="1"
+                            android:layout_gravity="center_vertical"
                             android:textSize="15sp"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginEnd="15dp"
-                            android:text="HQ"/>
+                            android:textColor="@android:color/black"
+                            android:layout_marginEnd="5dp"
+                            android:text="West Bengal"/>
 
 
 
@@ -316,28 +575,71 @@
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
-                        <TextView
-                            android:layout_width="wrap_content"
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:textStyle="bold"
-                            android:layout_marginStart="30dp"
-                            android:textSize="15sp"
-                            android:layout_marginEnd="15dp"
-                            android:text="Police Station: "
-                            android:textColor="#2861FE"/>
+                            android:layout_weight="1">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:elevation="2dp"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="5dp"
+                                app:cardCornerRadius="5dp"
+                                android:paddingEnd="5dp">
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/dida"
+                                    android:gravity="center">
+
+
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textColor="#2861FE"
+                                        android:textStyle="bold"
+                                        android:layout_margin="2dp"
+                                        android:textSize="15sp"
+                                        android:paddingStart="5dp"
+                                        android:paddingEnd="5dp"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_marginEnd="5dp"
+                                        android:text="Police Station"/>
+
+                                </LinearLayout>
+
+
+
+
+
+                            </androidx.cardview.widget.CardView>
+
+
+
+
+                        </RelativeLayout>
 
 
                         <TextView
                             android:id="@+id/district_police"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center_vertical"
                             android:textSize="15sp"
-                            android:layout_marginStart="10dp"
                             android:textColor="@android:color/black"
-                            android:layout_marginEnd="15dp"
-                            android:text="HQ"/>
+                            android:layout_marginEnd="5dp"
+                            android:text="West Bengal"/>
 
 
 
@@ -348,28 +650,71 @@
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
-                        <TextView
-                            android:layout_width="wrap_content"
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:textStyle="bold"
-                            android:layout_marginStart="30dp"
-                            android:textSize="15sp"
-                            android:layout_marginEnd="15dp"
-                            android:text="Block: "
-                            android:textColor="#2861FE"/>
+                            android:layout_weight="1">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:elevation="2dp"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="5dp"
+                                app:cardCornerRadius="5dp"
+                                android:paddingEnd="5dp">
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/dida"
+                                    android:gravity="center">
+
+
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textColor="#2861FE"
+                                        android:textStyle="bold"
+                                        android:layout_margin="2dp"
+                                        android:textSize="15sp"
+                                        android:paddingStart="5dp"
+                                        android:paddingEnd="5dp"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_marginEnd="5dp"
+                                        android:text="Block"/>
+
+                                </LinearLayout>
+
+
+
+
+
+                            </androidx.cardview.widget.CardView>
+
+
+
+
+                        </RelativeLayout>
 
 
                         <TextView
                             android:id="@+id/district_block"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center_vertical"
                             android:textSize="15sp"
                             android:textColor="@android:color/black"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginEnd="15dp"
-                            android:text="HQ"/>
+                            android:layout_marginEnd="5dp"
+                            android:text="West Bengal"/>
 
 
 
@@ -383,7 +728,6 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
                     android:orientation="vertical">
 
                     <TextView
