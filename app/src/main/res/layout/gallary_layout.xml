@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
+    android:layout_width="140dp"
     android:layout_height="wrap_content"
     android:layout_margin="5dp"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
 
     <androidx.cardview.widget.CardView
-        android:layout_width="160dp"
+        android:layout_width="120dp"
         android:elevation="10dp"
-        android:layout_height="130dp"
+        android:layout_height="100dp"
         app:cardCornerRadius="12dp"
         android:layout_gravity="center_vertical"
         android:layout_margin="10dp">
 
 
         <ImageView
+            android:id="@+id/galary_image"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="fitXY"/>
